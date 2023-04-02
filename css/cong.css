@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFD700;
+}
+#fundo2{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: relative;
+}
+#organizacao{
+    display: grid;
+    grid-template-areas: 
+        "texto robo"
+        "textog textog"
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#fundo2 .texto{
+    display: absolute;   
+    grid-area: texto;
+}
+#fundo2 #robo{
+    display: absolute;
+    grid-area: robo;
+}
+#textog{
+    display: flex;
+    justify-content: center;
+    grid-area: textog;
+}
+#ibagens{
+    display: flex;
+    flex-flow: column;
+}
